@@ -1,0 +1,13 @@
+domain: jzuriaga.io
+layout:
+- quarkus.javaoperatorsdk.io/v1-alpha
+projectName: scalable-demo
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: jzuriaga.io
+  group: io.jzuriaga
+  kind: ScalableDemoApp
+  version: v1alpha1
+version: "3"
